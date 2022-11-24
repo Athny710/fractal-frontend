@@ -1,0 +1,150 @@
+table {
+  width: 100%;
+  .btn{
+    border: none;
+    outline: none;
+    width: 90px;
+    height: 30px;
+    margin: auto 0 0 auto;
+    cursor: pointer;
+    background-color: transparent;
+
+    mat-icon{
+      color: var(--blue-color);
+      font-size: 18px;
+      width: 18px;
+      height: 18px;
+    }
+  }
+}
+.mat-form-field {
+  font-size: 14px;
+   width: 100%;
+}
+td, th {
+  width: auto;
+  text-align: center;
+}
+.mat-sort-header-container {
+  display: flex;
+  justify-content: center;
+}
+.container-table{
+  width: calc(90vw - 40px);
+  height: auto;
+  margin: 2.5vw auto;
+  background-color:#F2F2F2;
+  padding: 20px;
+}
+.mat-form-field.mat-focused {
+  .mat-form-field-label {
+      color: var(--orange-color);
+  }
+  .mat-form-field-ripple {
+      background-color: var(--orange-color);
+      height: 2px;
+  }
+}
+.table-header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  h3{
+    color: var(--black-color);
+    line-height: 30px;
+  }
+
+  button{
+    border: none;
+    outline: none;
+    background-color: rgb(49, 49, 185);
+    color: #fff;
+    height: 30px;
+    width: 140px;
+    cursor: pointer;
+  }
+
+}
+.editar{
+  color: rgb(49, 49, 185);
+  cursor:pointer;
+}
+
+.form-background{
+  width: 100vw;
+  height: 100vh;
+  background-color: #40404096;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+
+  .form-container{
+    width: 30%;
+    height: auto;
+    background-color: #fff;
+    margin: auto;
+    display: flex;
+    padding: 40px 0;
+
+    form{
+      width: 80%;
+      height: 100%;
+      margin: auto;
+
+      .input-group{
+        width: 100%;
+        display: flex;
+        margin: 0 auto 30px auto;
+
+        label{
+          width: 30%;
+        }
+        input{
+          width: 70%;
+          height: 30px;
+          background-color: transparent;
+          border: none;
+          border-bottom: 1px solid rgb(49, 49, 185);
+          outline: none;
+        }
+        select{
+          width: 70%;
+          height: 30px;
+          background-color: transparent;
+          border: none;
+          border-bottom: 1px solid rgb(49, 49, 185);
+        }
+
+        .row-flex{
+          width: 100%;
+          display: flex;
+
+          .guardarBtn{
+            border: none;
+            outline: none;
+            background-color: rgb(49, 49, 185);
+            color: #fff;
+            height: 30px;
+            width: 100px;
+            cursor: pointer;
+            margin: auto 10px auto auto;
+          }
+          .cancelarBtn{
+            border: none;
+            outline: none;
+            background-color: #F2F2F2;
+            color: rgb(49, 49, 185);
+            height: 30px;
+            width: 100px;
+            cursor: pointer;
+            margin: auto 0 auto 10px;
+          }
+        }
+
+
+      }
+    }
+  }
+}

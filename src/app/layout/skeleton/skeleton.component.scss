@@ -1,0 +1,11 @@
+.page-cont{
+  width: 100vw;
+  height: 100vh;
+  background-color: #F2F2F2;
+  display: flex;
+  flex-direction: column;
+}
+.main-cont{
+  width: 100vw;
+  min-height: calc(100vh - 80px);
+}

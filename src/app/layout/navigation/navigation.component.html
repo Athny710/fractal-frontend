@@ -1,0 +1,15 @@
+<!-- START TOPBAR -->
+<div class="topbar">
+  <div class="content">
+    <h1>BLAZE</h1>
+    <div class="options-cont">
+      <button (click)="onRedirectToOrders()">Orders</button>
+      <button (click)="onRedirectToProducts()">Products</button>
+    </div>
+  </div>
+  <div class="loader" *ngIf="(loaderService.isLoading | async)">
+    <mat-progress-bar style="height: 3px;" mode="indeterminate"></mat-progress-bar>
+  </div>
+</div>
+
+<!-- END TOPBAR -->
